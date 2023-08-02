@@ -11,6 +11,10 @@
 
 int sysBrightness;
 
+typedef struct Brightness {
+
+} Brightness;
+
 void incrementBrightness(); // + 1 brightness for custom settings
 void setBrightness(int brightness);
 void autoAdjustBrightness();

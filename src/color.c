@@ -1,4 +1,4 @@
-#include "colors.h"
+#include "color.h"
 
 color createColor (int rVal, int gVal, int bVal) {
     color newColor;
