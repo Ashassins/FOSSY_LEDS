@@ -14,14 +14,14 @@
 // #define PINK
 // #define WHITE
 // #define BROWN
-
+int sysColorCount; // whats the max?
 typedef struct Color {
+    int id;
     int r;
     int g;
     int b;
 } color;
 
-void setColor (color value);
 color createColor (int rVal, int gVal, int bVal);
 
 #endif
